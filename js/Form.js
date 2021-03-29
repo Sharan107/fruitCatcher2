@@ -50,6 +50,8 @@ class Form{
             this.reset.mousePressed(()=>{
                 player.updateCount(0);
                 game.update(0);
+                player1score=0;
+                player2score=0;
             })
     
         
