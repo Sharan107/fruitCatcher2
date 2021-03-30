@@ -63,8 +63,8 @@ class Game{
             // Add code to diplay the scores of both
             textSize(25);
             fill("white");
-            text("Player1: "+allPlayers.player1.score+1,50,50);
-            text("Player2: "+allPlayers.player2.score+1,50,100);
+            text("Player1: "+allPlayers.player1.score,50,50);
+            text("Player2: "+allPlayers.player2.score,50,100);
             
             // the players on the screen
 
