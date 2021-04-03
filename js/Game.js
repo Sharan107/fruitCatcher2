@@ -115,20 +115,21 @@ class Game{
 
 
         // Add code for game end condition
-           if(player.score >=10){
-               this.end();
-           }
+          if(player.score >=10){
+            this.end(); 
+            player.updateCount(3);
+            } 
 
     }
 
     end(){
 
        // Add code to update game state and display Game Over
-            game.update(2);
-            clear();
-            fill("blue");
-            textSize(40);
-            text("GAME OVER!!!",350,300);
-       
+       game.update(2);
+       form.hide();
+       clear(); 
+       fill("blue"); 
+       textSize(40); 
+       text("GAME OVER!!!",350,300);
     }
 }
